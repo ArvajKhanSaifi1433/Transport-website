@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvaj Saifi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+
+    <!-- bootstap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Font Awsome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Main link -->
+    <link rel="stylesheet" href="css/style.css" rel="stylesheet">
+
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navbar Start -->
+
+    <header id="header" class="header fixed-top py-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid container-lg">
+                <a class="navbar-brand" href="#">
+                    <h1 class="fw-bold text-white fs-2">Arvaj</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="ri-menu-line"></i> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex justify-content-center" role="search">
+                        <button class="btn btn-primary py-2 px-4 ms-lg-2 fs-6" type="submit">Get a Quote</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container h-100">
+            <div class="row ">
+                <div class="col-lg-7 order-lg-first order-last mt-5 mt-lg-0 " data-aos="fade-up" data-aos-duration="2500">
+                    <h1 class=" fw-bold display-5 text-white">Your Lightning Fast<br>Delivery Partner</h1>
+                    <p class="w90 my-4">Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt
+                        optio quis sit odio nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores eaque
+                        id optio ullam occaecati odio est possimus vel reprehenderit</p>
+                    <form action="#" class="d-flex bg-white p-2 rounded">
+                        <input type="text" placeholder="ZIP Code and CITY" class="form-control border-0" name="" id="">
+                        <button class="btn btn-primary py-3 px-4">Search</button>
+                    </form>
+                </div>
+                <div class="col-lg-5 order-lg-last order-first" data-aos="zoom-out" data-aos-duration="2500">
+                    <img src="image/hero-img.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section Start -->
+
+    <div id="featured-service" class="pd">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="featured-section d-flex">
+                        <div class="featured-icon align-self-start flex-shrink-0">
+                            <i class="fa-solid fa-cart-flatbed"></i>
+                        </div>
+                        <div class="featured-content mt-2 ms-4">
+                            <h5 class="title text-black fw-bold">Lorem Ipsum</h5>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                excepturi sint occaecati cupiditate non provident</p>
+                            <a href="service-details.html" class="text-black fw-semibold"><span>Learn More</span> <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="featured-section d-flex">
+                        <div class="featured-icon align-self-start flex-shrink-0">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <div class="featured-content mt-2 ms-4">
+                            <h5 class="title text-black fw-bold">Dolar Siteman</h5>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                excepturi sint occaecati cupiditate non provident</p>
+                            <a href="service-details.html" class="text-black fw-semibold"><span>Learn More</span> <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="featured-section d-flex">
+                        <div class="featured-icon align-self-start flex-shrink-0">
+                            <i class="fa-solid fa-truck-ramp-box"></i>
+                        </div>
+                        <div class="featured-content mt-2 ms-4">
+                            <h5 class="title text-black fw-bold">Sed ut Perspiciatis</h5>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                                excepturi sint occaecati cupiditate non provident</p>
+                            <a href="service-details.html" class="text-black fw-semibold"><span>Learn More</span> <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="about" class="about pd pt-2">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 order-lg-first order-last">
+                    <h2 class="">About Us</h2>
+                    <p class="mt-3 mb-4">Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem
+                        voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti
+                        totam ut eius incidunt reiciendis veritatis asperiores placeat. </p>
+                    <div class="about-content d-flex" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="about-icon">
+                            <i class="ri-open-arm-line"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="fw-bold">Ullamco laboris nisi ut aliquip consequat</h6>
+                            <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                        </div>
+                    </div>
+                    <div class="about-content d-flex py-4" data-aos="fade-up" data-aos-duration="1900">
+                        <div class="about-icon">
+                            <i class="ri-fullscreen-exit-line"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="fw-bold">Magnam soluta odio exercitationem reprehenderi</h6>
+                            <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-content d-flex" data-aos="fade-up" data-aos-duration="2200">
+                        <div class="about-icon">
+                            <i class="ri-broadcast-line"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="fw-bold">Voluptatem et qui exercitationem</h6>
+                            <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="image/about.jpg" class="img-fluid" alt="">
+                    <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class=" play-btn"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services pb-5">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="2000">
+            <span>Our Services</span>
+            <h2>Our Services</h2>
+        </div>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card rounded-0 position-relative">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="image/storage-service.jpg" class="img-fluid rounded-0" alt="">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">STORAGE</h5>
+                            <p class="m-0 mt-2 mt-lg-3">Cumque eos in qui numquam. Aut aspernatur perferendis sed atque
+                                quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card rounded-0 position-relative">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="image/logistics-service.jpg" class="img-fluid rounded-0" alt="">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">LOGISTICS</h5>
+                            <p class="m-0 mt-2 mt-lg-3">Asperiores provident dolor accusamus pariatur dolore nam id
+                                audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card rounded-0 position-relative">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="image/cargo-service.jpg" class="img-fluid rounded-0" alt="">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">CARGO</h5>
+                            <p class="m-0 mt-2 mt-lg-3">Dicta quam similique quia architecto eos nisi aut ratione aut
+                                ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card rounded-0 position-relative">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="image/trucking-service.jpg" class="img-fluid rounded-0" alt="">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-uppercase">trucking</h5>
+                            <p class="m-0 mt-2 mt-lg-3">Dicta quam similique quia architecto eos nisi aut ratione aut
+                                ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card rounded-0 position-relative">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="image/packaging-service.jpg" class="img-fluid rounded-0" alt="">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-uppercase">packaging</h5>
+                            <p class="m-0 mt-2 mt-lg-3">Illo consequuntur quisquam delectus praesentium modi dignissimos
+                                facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="card rounded-0 position-relative">
+                        <div class="card-img overflow-hidden rounded-0">
+                            <img src="image/warehousing-service.jpg" class="img-fluid rounded-0" alt="">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">warehousing</h5>
+                            <p class="m-0 mt-2 mt-lg-3">Quas assumenda non occaecati molestiae. In aut earum sed natus
+                                eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pd cta" id="cta">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8 col-md-9 col-sm-11" data-aos="zoom-out" data-aos-duration="2500">
+                    <h2 class="fw-bold text-white">Call To Action</h2>
+                    <p class="text-white fw-semibold">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+
+                    <a href="#" class="btn btn-outline-light fw-semibold py-2  px-5">Call To Action</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======= Features Section ======= -->
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row align-items-center pd">
+                <div class="col-lg-5" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="image/features-1.jpg" class="img-fluid " alt="">
+                </div>
+                <div class="col-lg-7" data-aos="fade-up" data-aos-duration="2000">
+                    <h3 class=" mt-3 mt-lg-0">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                    </h3>
+                    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </em></p>
+                    <ul>
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                        <li> Ullam est qui quos consequatur eos accusamus.</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row align-items-center" >
+                <div class="col-lg-5 mt-lg-0 order-first order-lg-last" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="image/features-2.jpg" class="img-fluid " alt="">
+                </div>
+                <div class="col-lg-7 order-last order-lg-first" data-aos="fade-up" data-aos-duration="2000">
+                    <h3 class="mt-3 lg-md-0">Corporis temporibus maiores provident</h3>
+                    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </em></p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                </div>
+            </div>
+            <div class="row align-items-center pd">
+                <div class="col-lg-5" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="image/features-3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7" data-aos="fade-up" data-aos-duration="2000">
+                    <h3 class=" mt-3 mt-lg-0">Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas
+                    </h3>
+                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit
+                        aut quia voluptatem hic voluptas dolor doloremque.</p>
+                    <ul>
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                        <li> Ullam est qui quos consequatur eos accusamus.</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row align-items-center" style="padding-bottom: 100px;">
+                <div class="col-lg-5 mt-lg-0 order-first order-lg-last" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="image/features-4.jpg" class="img-fluid " alt="">
+                </div>
+                <div class="col-lg-7 order-last order-lg-first" data-aos="fade-up" data-aos-duration="2000">
+                    <h3 class="mt-3 lg-md-0">Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in
+                    </h3>
+                    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </em></p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Features Section ======= -->
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing" style="padding-bottom: 100px;">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="2000">
+            <span>Pricing</span>
+            <h2>Pricing</h2>
+        </div>
+        <div class="container">
+            <div class="row g-5 row-cols-1 row-cols-lg-3">
+                <div class="col-lg-4 d-grid" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="pricing-section shadow px-4 py-5 rounded-2">
+                        <div class="pricing-plan ps-2">
+                            <h4 class="fw-bold">Free Plan</h4>
+                        </div>
+                        <div class="pricing-rs d-flex ps-2 mt-4 mb-5">
+                            <div class="doler fs-1  text-primary">$</div>
+                            <div class="rs display-1 fw-semibold text-primary align-self-start">0</div>
+                            <div class="month align-self-end mb-1 fs-5 text-secondary ms-2"> / month</div>
+                        </div>
+                        <ul class="ps-3">
+                            <li>Quam adipiscing vitae proin</li>
+                            <li>Nec feugiat nisl pretium</li>
+                            <li>Nulla at volutpat diam uteera</li>
+                        </ul>
+                        <div class="crose ps-3">
+                            <ol>
+                                <li><strike>Pharetra massa massa ultricies</strike></li>
+                                <li><strike>Massa ultricies mi quis hendrerit</strike></li>
+                            </ol>
+                        </div>
+                        <a href="#" role="button"
+                            class="ms-3 mt-4 btn btn-outline-primary py-lg-3 py-2 px-lg-5 px-4">Bay Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-grid" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="pricing-section shadow px-4 py-5 border-4 border-top border-primary rounded-2">
+                        <div class="pricing-plan ps-2">
+                            <h4 class="fw-bold">Business Plan</h4>
+                        </div>
+                        <div class="pricing-rs d-flex ps-2 mt-4 mb-5">
+                            <div class="doler fs-1  text-primary">$</div>
+                            <div class="rs display-1 fw-semibold text-primary align-self-start">29</div>
+                            <div class="month align-self-end mb-1 fs-5 text-secondary ms-2"> / month</div>
+                        </div>
+                        <ul class="ps-3">
+                            <li>Quam adipiscing vitae proin</li>
+                            <li>Nec feugiat nisl pretium</li>
+                            <li>Nulla at volutpat diam uteera</li>
+                            <li>Pharetra massa massa ultricies</li>
+                            <li>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <a href="#" role="button" class="ms-3 mt-4 btn btn-primary py-lg-3 py-2 px-lg-5 px-4">Bay
+                            Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-grid" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="pricing-section shadow px-4 py-5 rounded-2">
+                        <div class="pricing-plan ps-2">
+                            <h4 class="fw-bold">Developer Plan</h4>
+                        </div>
+                        <div class="pricing-rs d-flex ps-2 mt-4 mb-5">
+                            <div class="doler fs-1  text-primary">$</div>
+                            <div class="rs display-1 fw-semibold text-primary align-self-start">49</div>
+                            <div class="month align-self-end mb-1 fs-5 text-secondary ms-2"> / month</div>
+                        </div>
+                        <ul class="ps-3">
+                            <li>Quam adipiscing vitae proin</li>
+                            <li>Nec feugiat nisl pretium</li>
+                            <li>Nulla at volutpat diam uteera</li>
+                            <li>Pharetra massa massa ultricies</li>
+                            <li>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+
+                        <a href="#" role="button"
+                            class="ms-3 mt-4 btn btn-outline-primary py-lg-3 py-2 px-lg-5 px-4">Bay Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= Pricing Section ======= -->
+
+    <section id="client" class="client pd">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                        </div>
+                        <div class="carousel-inner" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <div class="client-section">
+                                    <img src="image/arvaj.png" class="img-fluid" alt="">
+                                    <h3>Arvaj Saifi</h3>
+                                    <h4>Coder &amp; Developer</h4>
+                                    <div class="stars">
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                    </div>
+                                    <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                                        Maecen aliquam, risus at semper.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="client-section">
+                                    <img src="image/testimonials-5.jpg" class="img-fluid" alt="">
+                                    <h3>Saul Goodman</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                    <div class="stars">
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                    </div>
+                                    <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                                        Maecen aliquam, risus at semper.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="client-section">
+                                    <img src="image/testimonials-4.jpg" class="img-fluid" alt="">
+                                    <h3>Sara Wilsson</h3>
+                                    <h4>Designer</h4>
+                                    <div class="stars">
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                    </div>
+                                    <p> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
+                                        quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat
+                                        irure amet legam anim culpa.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="client-section">
+                                    <img src="image/testimonials-3.jpg" class="img-fluid" alt="">
+                                    <h3>Jena Karlis</h3>
+                                    <h4>Store Owner</h4>
+                                    <div class="stars">
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                    </div>
+                                    <p> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis
+                                        sint minim.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="client-section">
+                                    <img src="image/testimonials-2.jpg" class="img-fluid" alt="">
+                                    <h3>Matt Brandon</h3>
+                                    <h4>Freelancer</h4>
+                                    <div class="stars">
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                    </div>
+                                    <p> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
+                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore
+                                        quem dolore labore illum veniam.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="client-section">
+                                    <img src="image/testimonials-1.jpg" class="img-fluid" alt="">
+                                    <h3>John Larson</h3>
+                                    <h4>Entrepreneur</h4>
+                                    <div class="stars">
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                        <i class="ri ri-star-fill"></i>
+                                    </div>
+                                    <p> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
+                                        noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam
+                                        esse veniam culpa fore nisi cillum quid.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq pd">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="2000">
+            <span>Frequently Asked Questions</span>
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="ri ri-question-fill"></i><span> Non consectetur a erat nam at lectus urna
+                                        duis? </span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                                    purus non.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="ri ri-question-fill"></i><span> Feugiat scelerisque varius morbi enim nunc
+                                        faucibus a pellentesque?
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                    cursus turpis massa tincidunt dui.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="ri ri-question-fill"></i><span> Dolor sit amet consectetur adipiscing elit
+                                        pellentesque habitant morbi?
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
+                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    <i class="ri ri-question-fill"></i><span> Ac odio tempor orci dapibus. Aliquam
+                                        eleifend mi in nulla?
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                    cursus turpis massa tincidunt dui.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
+                            <h2 class="accordion-header" id="headingf">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsef" aria-expanded="false" aria-controls="collapsef">
+                                    <i class="ri ri-question-fill"></i><span>Tempus quam pellentesque nec nam aliquam
+                                        sem et tortor consequat?
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapsef" class="accordion-collapse collapse" aria-labelledby="headingf"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
+                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
+                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= footer Section ======= -->
+    <footer id="contact">
+        <div class="footer-top py-4 py-md-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-5 col-md-12">
+                        <div class="first">
+                            <h2>Arvaj.</h2>
+                            <p class="pb-3 pe-lg-3">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+                                nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam
+                                phasellus.</p>
+                            <div class="icons">
+                                <a href="https://www.instagram.com/arvajkhan_saifi1433/"
+                                    class="border rounded-circle text-white fs-5 p-2 ri ri-instagram-fill"></a>
+                                <a href="https://www.instagram.com"
+                                    class="border rounded-circle text-white fs-5 ms-2 p-2 ri ri-facebook-fill"></a>
+                                <a href="https://www.instagram.com"
+                                    class="border rounded-circle text-white fs-5 ms-2 p-2 ri ri-linkedin-fill"></a>
+                                <a href="https://www.instagram.com"
+                                    class="border rounded-circle text-white fs-5 ms-2 p-2 ri ri-twitter-fill"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="second">
+                            <h4>Useful Links</h4>
+                            <p>Home</p>
+                            <p>About</p>
+                            <p>Service</p>
+                            <p>Terms of service</p>
+                            <p>Privacy Policy</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="second">
+                            <h4>Our Services</h4>
+                            <p>Web Design</p>
+                            <p>Web Development</p>
+                            <p>Product Management</p>
+                            <p>Marketing</p>
+                            <p>Graphic Design</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="third text-white">
+                            <h4>Contact Us</h4>
+                            <p>
+                                A108 Adam Street <br>
+                                New York, NY 535022<br>
+                                United States <br><br>
+                                <strong>Phone:</strong> +91 844-786-1538<br>
+                                <strong>Email:</strong> arvajkhan@gmail.com<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom pb-4 pb-md-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-center">
+                        <p class="m-0 text-white" >© Copyright Logis. All Rights Reserved </p>
+                        <p class="m-0 text-white" >Designed by <i>Arvaj</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- ======= footer Section ======= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+</html>
